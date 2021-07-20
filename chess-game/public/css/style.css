@@ -1,0 +1,39 @@
+#myBoard {  
+    height: 500px;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+#protect{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#waiting{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+    
+    text-align: center;
+    padding-top: 100px;
+}
+
+#rooms{
+    right: 0;
+    top: 0;
+    padding: 30px;
+    height: 100%;
+    width: 200px;
+    
+    
+    position: fixed
+}
